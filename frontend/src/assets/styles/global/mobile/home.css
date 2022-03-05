@@ -1,0 +1,35 @@
+@media screen and (max-width: 540px)
+{
+    .home-body{
+        grid-row: 2;
+        display: inline;
+    }
+    #description-title
+    { 
+        font-size: 45px;
+        padding-right: 0;
+    }
+    #description-text
+    { 
+        font-size: 16px; 
+        padding-right: 0;
+    }
+    .body-presentation
+    { 
+        height: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-template-rows: 0.2fr auto 0.2fr;
+        align-items: start;
+        /* justify-content: center; */
+    }
+    .presentation-description
+    { 
+        grid-row: 2; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .presentation-core{ grid-row: 4; }
+}

@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+@import url(https://fonts.googleapis.com/css?family=Rajdhani);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Spartan);
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+@import url(https://fonts.googleapis.com/css?family=Genos);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(https://fonts.googleapis.com/css?family=Yuji+Syuku);
+
+
+.home-body
+{
+    grid-row: 2;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+    grid-template-columns: 50% auto;
+}
+
+.body-presentation
+{
+    display: grid;
+    grid-template-rows: 0.45fr 0.6fr 0.4fr;
+    grid-column: 2;
+}
+
+.presentation-description
+{
+   grid-row: 2; 
+}
+
+#description-title
+{
+
+    margin: 0;
+    top:0;
+    font-size: 100px;
+    background-color: white;
+    /* background: -webkit-linear-gradient(90deg, rgba(0,70,46,1) 4%, rgba(0,134,88,1) 31%, rgba(0,117,76,1) 55%, rgba(0,235,153,1) 100%); */
+    font-family: "Yuji Syuku", sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    mix-blend-mode: difference;
+    font-style: normal; 
+    padding-right: 20%;
+    text-align: start;
+    font-variant: normal; 
+    font-weight: 500; 
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, .7), -2px -2px 4px rgba(255, 255, 255, .7);
+}
+
+
+#description-text
+{
+    font-size: 25px;
+    font-family: "Yuji Syuku", sans-serif;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    padding-right: 30%;
+    line-height: 19.8px;
+    text-align: start;
+    mix-blend-mode: difference;
+    filter: drop-shadow(0.02em 0.02em white);
+    background-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    /* animation:  glow 3s infinite; */
+    text-shadow: 20px 20px 50px rgba(255, 255, 255, .7),
+                   -20px -20px 50px rgba(255, 255, 255, .7);
+  }
+  
+
+.presentation-core
+{
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+}
+
+.core-description
+{
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+
+#core-competence
+{
+    grid-column: 1;
+}
+
+#skill-logo, #setting-logo, #reward-logo
+{
+    
+    max-width: 100px;
+    height: auto;
+    margin: auto;
+}
+
+.body-rule
+{
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: 0.5fr 1.7fr 0.5fr;
+}
+
+.rule-global
+{
+    grid-column: 1;
+    background: linear-gradient(90deg, rgba(20,21,25,1) 0%, rgba(31,33,37,1) 35%, rgba(35,36,41,1) 100%);
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12), 0px 1px 8px 0px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 0.25fr;
+    justify-content: center;
+    align-content: center;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.rule-description
+{
+    grid-column: 2;
+}
+
+#rule-text, #rule-terms, #rule-title
+{
+    font-family: Didot; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 19.8px;
+}
+
+#rule-text { font-size: 19px; }
+#rule-terms { font-size: 14px }
+#rule-title
+{
+    font-size: 35px;
+    font-weight: 700; 
+}
+#form-input 
+{
+    background-color: transparent;
+    border-radius: 25px 25px 25px 25px;
+    border-color: transparent;
+    border: 3px solid#4b4c50;
+    height: 35px;
+    width: auto;
+    color: #fff
+}
+#form-input:hover
+{
+    color: #00b576;
+    border-color: #00b576;
+}
+
+#form-input:focus {
+    outline: none !important;
+    border: 3px solid #00b576;
+    color: #fff
+  }
+
+#form-button
+{
+    height: 50px;
+    width: auto;
+    background-color: #00b576;
+    margin: 5px;
+    border-radius: 15px 15px 15px 15px;
+    border-color: transparent;
+}
+
+.rule-game
+{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    grid-column: 2;
+    background: linear-gradient(90deg, rgba(20,21,25,1) 0%, rgba(31,33,37,1) 35%, rgba(35,36,41,1) 100%);
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12), 0px 1px 8px 0px rgba(0, 0, 0, 0.2);
+}
